@@ -1,0 +1,25 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(2,12,66);
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+label {
+    font-family: 'waltograph', sans-serif;
+    font-size: 12em;
+    text-align: center;
+    
+}
+/* waltograph */
+@font-face {
+    font-family: "waltograph"; 
+    src: url(../fonts/waltograph42.otf);
+}
