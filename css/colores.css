@@ -1,0 +1,51 @@
+H1 {
+    text-align: center;
+}
+.box-direction {
+    display: flex;
+    flex-direction: row;
+}
+.box-style{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.box-darkcyan {
+    background-color: darkcyan;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.box-goldenrod {
+    background-color: goldenrod;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.box-brown {
+    background-color:brown;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.box-64-64-64 {
+    background-color: rgb(64, 64, 64, .5);
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.box-14FAC3 {
+    background: color #14fac3;
+}
+
+
