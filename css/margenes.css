@@ -23,7 +23,8 @@
 .box-1 {
     border: 3px solid black;
     display: inline-block;
-    padding: 0 25px;
+    color: red;
+    padding: 25px 25px;
    
 
 
@@ -33,31 +34,22 @@
     border: 3px dotted black;
     display: inline-block;
     height: 450px;
-    
-    
 }
 
 .box-3 {
-    
     border: 3px dashed rgb(255, 0, 0);
     display: inline-block;
     height: 450px ;
-    padding: 0 25px;
-    
 }
 
 .box-4 {
-   
     border: 3px double rgb(255, 0, 0);
     display: inline-block;
     height: 450px;
-    padding: 0 25px;
-
 }
 
 p {
     font-size: 1.4em;
     text-align: justify;
-    padding: 0 25px;
-    background-color: white;
+    background-color: rgb(255,255,255);
 }
