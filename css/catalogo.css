@@ -1,122 +1,153 @@
 * {
-    margin: 0;
     padding: 0;
-    background-color: rgb(242, 242, 242);
+    margin: 0;
+    background-color: rgb(242,242,242);
 }
-
-.main-box {
+.main-box{
     display: flex;
-    align-items: flex center;
-    margin-top: 200px;
-    justify-content: center;
     flex-direction: row;
+    margin-top: 200px;
+    align-items: flex-start;
+    justify-content: center;
+    /*vh: view height */
     height: 100vh;
 }
-
-.box-style {
+.box-style{
     width: 350px;
-    height: 460px;
     margin: 0 40px;
-    background-color: rgb(255, 255, 255);
-    margin-top: 100px;
+    background-color: rgb(255,255,255);
+    height: 460px;
+
 }
 .product-box {
-    width: 230px;
-    height: 140px;
-    margin: 0 auto;
-    background-color: white;
-    margin-top: 30px;
-    margin-left: 50px;
+   width: 230px;
+   height: 140px;
+   background-color: rgb(242,242,242);
+   margin-top: 30px;
+   margin-left: 50px;
 }
-img {
+.img {
     margin-top: -40px;
     background-color: transparent;
 }
-/* Caja de color */
-.add-cart-1 {
-    margin-bottom: 0px;
-    margin-top: 110px;
+/* caja de color*/
+.add-cart-1{
+    margin-bottom: 0;
+    margin-top: 10px;
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
     width: 100%;
-    height: 40px;
-    background-color: rgb(39, 200, 164);
+    height: 15%;
+    background-color: rgb(39,200,164);
 }
-.add-cart-1-span {
-    background-color: transparent;
-    color: white;
-    font-weight: 900;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .9em;
-} 
 .product-text {
     text-align: center;
     background-color: white;
 }
 .product-text-span {
+    margin-bottom: 0;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     font-size: 1.3em;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(64,64,64,.9)
+    color: rgb(64,64,64, .9);
 }
-.text-description {
+.text-description{
     background-color: white;
-    color: rgb(64,64,64,.9);
-    font-size: 1.0em;
+    color: rgb(64,64,64, .9);
+    font-size: .8em;
 }
 .price-text {
     background-color: white;
     color: rgb(39,200,164);
-    font-size: 2.1em;
+    font-size: 1.8em;
     font-weight: 900;
     display: block;
-    margin-top: 20px;
+    margin: 10px;
 }
-.star-style {
-    background-color: white;
-    color: gold;
-}
-
-
-
-/*.add-cart-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 60px;
-    background-color: rgb(39, 56, 87); 
-    
-    
-}
-.add-cart-2-span {
+.add-cart-1-span{
     background-color: transparent;
     color: white;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .9em;
-    }
-.add-cart-3 {
+    font-size: 1.0em;
+}   
+.add-cart-2{
+    margin-bottom: 0;
+    margin-top: 10px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 60px;
-    background-color: rgb(255, 165, 0);
-    } 
-    
-    .add-cart-3-span {
-        background-color: transparent;
+    height: 15%;
+    background-color: rgb(221, 44, 21);
+}
+.price-text2 {
+    background-color: white;
+    color: rgb(216, 48, 48);
+    font-size: 1.8em;
+    font-weight: 900;
+    display: block;
+    margin: 10px;
+}
+.add-cart-2-span{
+    background-color: transparent;
     color: white;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .9em;
-    }
-
+    font-size: 1.0em;
+}  
+.add-cart-3{
+    margin-bottom: 0;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(228, 119, 17);
+}
+.price-text3 {
+    background-color: white;
+    color: rgb(218, 144, 65);
+    font-size: 1.8em;
+    font-weight: 900;
+    display: block;
+    margin: 10px;
+}
+.add-cart-3-span{
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.0em;
+} 
 p {
     font-size: 1.4em;
     text-align: justify;
-    background-color: rgb(255, 255, 255)
-}*/
+    background-color: white;
+}
+.star-style1 {
+    color: rgb(39,200,164);
+    font-size: 1.4em;
+    background-color: white;
+}
+.star-style2 {
+    color: rgb(216, 48, 48);
+    font-size: 1.4em;
+    background-color: white;
+}
+.star-style3 {
+    color: rgb(218, 144, 65);
+    font-size: 1.4em;
+    background-color: white;
+}
+.star-style4 {
+    color: rgb(99, 14, 218);
+    font-size: 1.4em;
+}

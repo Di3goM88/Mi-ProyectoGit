@@ -1,0 +1,25 @@
+.table-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+table{
+     border-collapse: collapse;
+     font-family: sans-serif;
+}
+th, td {
+    border: 1px solid rgb(64, 64, 64);
+    padding: 15px 25px;
+    text-align: center;
+}
+.th-gold {
+    background-color: goldenrod;
+    color: white;
+}
+.x-style {
+    color: rgb(228,22,22);
+}
+.th-1 {
+    background-color: bisque;
+}
