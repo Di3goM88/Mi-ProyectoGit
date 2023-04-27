@@ -7,19 +7,44 @@
 table{
      border-collapse: collapse;
      font-family: sans-serif;
+     border-radius:20px;
 }
 th, td {
-    border: 1px solid rgb(64, 64, 64);
-    padding: 15px 25px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 25px;
     text-align: center;
-}
-.th-gold {
-    background-color: goldenrod;
-    color: white;
-}
+} 
 .x-style {
     color: rgb(228,22,22);
 }
-.th-1 {
-    background-color: bisque;
+.bg-darckcyan {
+    background-color: darkcyan;
+    color: white;
+}
+.bg-darckcyan1 {
+    border-bottom-left-radius: 20px;
+    background-color: darkcyan;
+    color: white;
+}
+.th-paquete {
+    border-top-left-radius: 20px;
+    background-color: darkcyan;
+    color: white;
+}
+.th-gold1 {
+     border-top-right-radius: 20px;
+    background-color: goldenrod;
+    color: white;
+}
+.th-gold2 {
+    background-color: rgb(203, 19, 90);
+    color: white;
+}
+.th-gold3{
+    background-color: rgb(48, 180, 48);
+    color: white;
+}
+.th-gold4{
+    background-color: blueviolet;
+    color: white;
 }
