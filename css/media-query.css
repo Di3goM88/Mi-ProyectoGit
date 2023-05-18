@@ -4,7 +4,7 @@
 }
 .main-nav {
     background-color:rgb(216, 49, 49) ;
-    height: 80px;
+    height: 70px;
     width: 100%;
     font-size: 1.3em;
     font-family: 'Poppins', sans-serif;
@@ -24,7 +24,7 @@
     list-style: none;
 }
 .item-style{
-    padding: 20px 30px 20px 30px;
+    padding: 20px 30px 28px 30px;
     display: inline-block;
 }
 .item-style:hover {
@@ -41,13 +41,26 @@ a {
 /* media query*/
 @media only screen and (max-width: 1500px) {
       .main-menu {
-        display: none;
+        list-style: none;
+        height: 100vh;
+        background-color: rgb(64, 64, 64);
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        left: -100%;
+        transition: left 400ms;
+
       }
       .main-menu-block {
         list-style: none;
         height: 100vh;
         background-color: rgb(64, 64, 64);
         text-align: center;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        transition: left 400ms;
+        
         
       }
       .item-style {
