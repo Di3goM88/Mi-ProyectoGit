@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+.box-direction{
+    display: flex;
+    flex-direction: row;
+}
+.box-style {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+
+}
+.box-darkcyan {
+    background-color: rgb(94, 201, 174);
+    position: fixed;
+    left: 500px;
+    top: 50px;
+
+   
+}
