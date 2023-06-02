@@ -9,13 +9,14 @@ nav {
 }
 nav ul {
     background-color: rgb(64, 64, 64);
-    list-style: none ;
+    list-style: none;
     position: absolute;
     width: 100%;
-
-}
+    
+} 
 nav > ul {
     margin-left: 40px;
+    
 }
 
 nav > ul > li {
