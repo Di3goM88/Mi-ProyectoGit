@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+nav {
+    width: 100%;
+    /*height: 72%;*/
+    background-color: rgb(9, 67, 125);
+    font-family: verdana,sans-serif
+       
+}
+ul {
+    width: 100%;
+    text-align: right;
+    list-style: none;
+   
+    
+} 
+li {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    
+}
+
+a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: block;
+    line-height: 3em;
+    
+}
+a:hover{
+    background-color: rgb(3, 46, 90);
+    cursor: pointer;
+
+}
+.icon-style {
+    margin-right: 8px;
+    font-size: 0.75em;
+}
+.con-sd {
+    font-size: 0.9em;
+    position: relative;
+    left: 35px;
+
+}
+.child-menu {
+    position: absolute;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 1s;
+}
+.main-menu > li:hover .child-menu {
+    position: absolute;
+    /*display: block*/
+    color: black;
+    /*overflow: visible; */
+    max-height: 500px;
+    background-color: rgb(9, 67, 125);
+}
+.hamburguer-menu {
+    display: block;
+    width: 100%;
+}
+@media only screen and (max-width: 750px) {
+    .hamburguer-menu
+}
+
+ 
