@@ -14,7 +14,7 @@
 .Calendar-box {
     width: 80%;
     border: 3px solid black;
-    background-color: #86A69D;
+    background-color: rgb(39, 238, 182);
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(7, 1fr);
